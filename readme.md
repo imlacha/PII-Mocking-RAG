@@ -28,6 +28,7 @@
 *   **即時問答檢索流 (Online Query Pipeline):** 使用者提問時，系統即時攔截並將提問中的個資轉換為對應標示，如 `[person1]`、`[phone1]` 等。由於提問與知識庫採用相同規則代碼化，系統能在外部 Vector DB 中進行精準的向量搜尋。
 
 ![圖 二：雙流隱私保護 RAG 系統架構圖](./asset/圖片2.png)
+<div align="center">
 *圖 二：雙流隱私保護 RAG 系統架構圖*
 
 ---
@@ -42,7 +43,7 @@
 4.  **De-identification (去識別化):** 完成最終代碼替換。
 
 ![圖 一：Encoder 部分流程圖](./asset/圖一.png)
-
+<div align="center">
 *圖 一：Encoder 部分流程圖*
 
 ---
@@ -68,7 +69,7 @@
 *   **低權限 (如一般人員/客戶):** 僅提供結果摘要或遮蔽後的資訊，確保敏感數據最小化揭露。
 
 ![圖 三：Decoder Component 流程圖](./asset/圖片3.png)
-
+<div align="center">
 *圖 三：Decoder Component 流程圖*
 
 ---
