@@ -42,6 +42,7 @@
 4.  **De-identification (去識別化):** 完成最終代碼替換。
 
 ![圖 一：Encoder 部分流程圖](./asset/圖一.png)
+
 *圖 一：Encoder 部分流程圖*
 
 ---
@@ -67,6 +68,7 @@
 *   **低權限 (如一般人員/客戶):** 僅提供結果摘要或遮蔽後的資訊，確保敏感數據最小化揭露。
 
 ![圖 三：Decoder Component 流程圖](./asset/圖片3.png)
+
 *圖 三：Decoder Component 流程圖*
 
 ---
@@ -74,7 +76,7 @@
 ## 6. 快速開始
 
 ### 6.1 環境需求
-*   Python 3.9+
+*   Python 3.10+
 *   Redis / PostgreSQL
 *   Docker & Docker-compose
 
@@ -96,6 +98,6 @@ docker-compose up -d
 *   [ ] 支援更多 NLP 實體識別模型 (Named Entity Recognition, NER)。
 *   [ ] 整合更複雜的權限審核機制。
 *   [ ] 優化大規模向量庫的同步更新效率。
-
+*   [ ] Encoder嘗試換成openai開源的PII Model
 ---
 
