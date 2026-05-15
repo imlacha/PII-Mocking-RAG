@@ -29,8 +29,8 @@
 
 ![圖 二：雙流隱私保護 RAG 系統架構圖](./asset/圖片2.png)
 <div align="center">
-*圖 二：雙流隱私保護 RAG 系統架構圖*
-
+圖 二：雙流隱私保護 RAG 系統架構圖*
+</div>
 ---
 
 ## 3. 去識別化處理流程 (Encoder)
@@ -44,8 +44,8 @@
 
 ![圖 一：Encoder 部分流程圖](./asset/圖一.png)
 <div align="center">
-*圖 一：Encoder 部分流程圖*
-
+圖 一：Encoder 部分流程圖*
+</div>
 ---
 
 ## 4. 代號定義邏輯
@@ -71,7 +71,7 @@
 ![圖 三：Decoder Component 流程圖](./asset/圖片3.png)
 <div align="center">
 *圖 三：Decoder Component 流程圖*
-
+</div>
 ---
 
 ## 6. 快速開始
