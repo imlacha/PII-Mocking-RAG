@@ -1,0 +1,31 @@
+# === 資料庫 ===
+psycopg2-binary>=2.9
+redis>=5.0
+pgvector>=0.3
+
+# === Embedding（本地中文模型）===
+sentence-transformers>=3.0
+torch>=2.0
+
+# === LLM ===
+google-generativeai>=0.8
+openai>=1.0
+
+# === 工具 ===
+python-dotenv>=1.0
+pandas>=2.0
+
+# === 互動展示 ===
+jupyterlab>=4.0
+
+# === NLP (Presidio) ===
+presidio-analyzer>=2.2
+spacy>=3.0
+
+# === LangChain ===
+langchain>=0.1
+langchain-community>=0.0.30
+langchain-core>=0.1
+sqlalchemy>=2.0
+langchain-postgres>=0.0.9
+psycopg[binary]>=3.1.18

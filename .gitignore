@@ -54,3 +54,7 @@ Thumbs.db
 # IDEs
 .vscode/
 .idea/
+
+# User custom ignores
+tests/
+test.ipynb
